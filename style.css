@@ -1,0 +1,92 @@
+body {
+  background: url(/imgs/Beautiful\ Night_22.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.box {
+  width: 300px;
+  /* height: 650px; */
+  margin: auto;
+  background-color: transparent;
+  border: solid 3px #eee;
+  margin-bottom: 90px;
+  background: url(imgs/Hypnotic\ Illusion_15.jpg) no-repeat center center;
+  background-size: 300px 210px;
+  background-position: left top;
+  background-color: #fff;
+}
+
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 49px;
+  position: absolute center;
+  display: inline-block;
+  text-align: center;
+  padding-left: 4%;
+}
+
+.text1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 29px;
+  text-align: center;
+  margin-top: -40px;
+}
+
+.text2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: solid 3px #eee;
+}
+
+#sincerely {
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 0 0 2px #eee;
+  background: url(/imgs/IMG_1136.JPG) center center no-repeat;
+  background-size: cover;
+  margin: 8%;
+  margin-top: 50px;
+  margin-bottom: -30px;
+  align-content: center;
+}
+
+.trick {
+  display: inline-block;
+  vertical-align: middle;
+  height: 150px;
+}
+
+.image:hover {
+  box-shadow: 5px 5px 19px #ddd;
+  transform: scale(0.75);
+  transition: 1.3s ease-in-out;
+}
+
+.trick:hover img {
+  transform: scale(1);
+}
+
+#overlay {
+  padding: 0;
+  opacity: 1;
+}
+
+#box:hover #overlay {
+  opacity: 1;
+}
