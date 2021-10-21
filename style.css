@@ -1,5 +1,5 @@
 body {
-  background: url(/imgs/Beautiful\ Night_22.jpg) no-repeat center center fixed;
+  background: url(imgs/Beautiful\ Night_22.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -58,7 +58,7 @@ body {
   width: 250px;
   height: 250px;
   box-shadow: 0 0 0 2px #eee;
-  background: url(/imgs/IMG_1136.JPG) center center no-repeat;
+  background: url(imgs/IMG_1136.JPG) center center no-repeat;
   background-size: cover;
   margin: 8%;
   margin-top: 50px;
@@ -66,16 +66,16 @@ body {
   align-content: center;
 }
 
-.trick {
-  display: inline-block;
-  vertical-align: middle;
-  height: 150px;
-}
-
 .image:hover {
   box-shadow: 5px 5px 19px #ddd;
   transform: scale(0.75);
   transition: 1.3s ease-in-out;
+}
+
+.trick {
+  display: inline-block;
+  vertical-align: middle;
+  height: 150px;
 }
 
 .trick:hover img {
